@@ -1,0 +1,5 @@
+type: web
+name: reni-ai-helper-bot
+env: python
+buildCommand: pip install -r requirements.txt
+startCommand: gunicorn app:app
